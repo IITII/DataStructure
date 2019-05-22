@@ -25,3 +25,6 @@ add_executable(Triad Triad.c)
 add_executable(P229-1 P229-1.cpp)
 #Ï¡Êè¾ØÕó
 add_executable(229-1c 229-1.c)
+#¶ş²æÊ÷
+add_executable(P231-6 P231-6.cpp)
+add_executable(P231-7 P231-7.cpp)
