@@ -1,7 +1,21 @@
 #include<bits/stdc++.h>
 #define ll long long
 using namespace std;
+/*
+5 4
+1 2
+2 3
+2 4
+1 5
+*/
 
+/*
+1  2 5
+2  3 4
+3
+4
+5 
+*/
 vector<int> v[1000];
 int vis[1005];
 int n, m;
