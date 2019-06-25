@@ -30,7 +30,6 @@ add_executable(P231-6 P231-6.cpp)
 add_executable(P231-7 P231-7.cpp)
 ##ͼ
 add_executable(P238-1 P238-1.cpp)
-add_executable(P239-2 P239-2.cpp)
 add_executable(P240-2 P240-2.cpp)
 add_executable(P240-2-2 P240-2-2.cpp)
 add_executable(P241-1 P241-1.cpp)
