@@ -345,6 +345,7 @@ int main()
     InitSqList(&L);//初始化顺序表
     printf("请输入要创建的顺序表的长度：");
     scanf("%d", &length);
+    printf("排序算法\t花费时间\t比较次数\t移动次数\n");
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -354,7 +355,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("直接插入排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("直接插入排序\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -364,7 +365,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("希尔排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("希尔排序\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -374,7 +375,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("快速排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("快速排序\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -384,7 +385,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("冒泡排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("冒泡排序\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -394,7 +395,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("堆排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("堆排序\t\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -404,7 +405,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("选择排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("选择排序\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -414,7 +415,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("折半插入排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("折半插入排序\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     CreateRandomSqList(&L, length);
     //PrintSqList(L);
@@ -424,7 +425,7 @@ int main()
     end = clock();
     totalTime = (double)(end - start) / CLK_TCK;
     //PrintSqList(L);
-    printf("归并排序共花费时间:\t%lf秒,比较次数：\t%d次，移动次数：\t%d次\n", totalTime, compareTime, MobileTime);
+    printf("归并排序\t%lf\t%d\t\t%d\n", totalTime, compareTime, MobileTime);
 
     return 0;
 }
